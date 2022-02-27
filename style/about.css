@@ -1,0 +1,451 @@
+*{
+    font-family:apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+    box-sizing: border-box;
+}
+#stickyNavbar{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background-color:white;
+}
+#navbar{
+height: 70px;
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+margin:15px 0 30px 0;
+position: sticky;
+top: 0;
+z-index: 100;
+background-color: white;
+}
+
+#logo-img{
+width: 60px;
+height: 40px;
+padding-left: 20px;
+margin-right: -20px;
+margin-top: -5px
+}
+#search-bar{
+width: 750px;
+height: 40px;
+border-radius: 20px;
+background-color: #eeeeee;
+border: none;
+padding-left: 30px;
+margin-top: -5px
+}
+
+
+#navbar button{
+background-color: white;
+height: 30px;
+border: none;
+border: 1px solid #767676;
+color: #767676;
+border-radius: 5px;
+
+}
+#navbar a{
+margin-top:0px;
+color: #767676;
+text-decoration: none;
+}
+#navbar a:hover{
+color: black;
+}
+#navbar >div:nth-child(6){
+width: 1px;
+height: 30px;
+background-color: #767676
+}
+#navbar>div>a{
+font-size:14px;
+}
+
+/* Head box css styles start from here */
+#headBox{
+    display:flex;
+    border-bottom:1px solid #8e97a5;
+    margin-bottom:2px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:white;
+    margin-bottom:100px;
+}
+#headBox>p{
+    margin-right:20px;
+    color:#8e97a5;
+    font-size: 15px;
+    margin-left:20px;
+}
+#headBox>p:hover{
+    color:black;   
+} 
+
+/* The first box css styles start from here */
+#firstBox{
+    display:flex;
+    justify-content:space-between;
+    width:88%;
+    height:800px;
+    margin:auto;
+}
+#firstBox>div{
+    height:100%;
+    width:50%;
+}
+#firstBox-image{
+    max-width:40%;
+}
+#firstBox-image>img{
+    width:100%;
+    height:100%;
+}
+#firstBox-matter{
+    padding-top:200px; 
+    padding-bottom:200px;   
+}
+#firstBox-matter>h1{
+    font-size:50px;
+}
+#firstBox-matter>p{
+    max-width:540px;
+    font-size:18px;
+    line-height:1.8em;
+}
+#firstBox-matter>button{
+    margin-top:15px;
+}
+/* First box buttons css style */
+#firstBox-btn1{
+    height:45px;
+    width:150px;
+    font-size:16px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+    margin-right:15px;
+}
+#firstBox-btn2{
+    background-color: #fff;
+    border-color: #d1d1d1;
+    border-radius:5px;
+    color: #767676;
+    height:45px;
+    width:200px;
+    font-size:16px;
+}
+/* Css styles for the heading between first box and second box */
+#h1Box{
+    width:52%;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+#h1-matter{
+    text-align:center;
+    width:90%;
+}
+
+/* The second box css styles start from here */
+#secondBox{
+    display:flex;
+    justify-content:space-between;
+    height:420px;
+    width:88%;
+    margin:auto;
+}
+#secondBox>div{
+    height:100%;
+    width: 32%;
+}
+#secondBox>div>img{
+    width:100%;
+}
+#secondBox>div>p{
+    line-height:1.5em;
+    font-size:15px;
+}
+
+/* The third box css styles start from here */
+#thirdBox{
+    display:flex;
+    justify-content:space-between;
+    width:88%;
+    height:500px;
+    margin:auto;
+    margin-top:80px;
+}
+#thirdBox>div{
+    height:100%;
+    width:50%;
+}
+#thirdBox-matter{
+    padding-top:120px;
+}
+#thirdBox-matter>p{
+    font-size:18px;
+    line-height:1.5em;
+    margin-right:2%
+}
+#thirdBox-image{
+    max-width:40%;
+}
+#thirdBox-image>img{
+    width:100%;
+    height:100%;
+}
+/* Third Box button css style starts from here */
+#thirdBox-btn{
+    height:45px;
+    width:200px;
+    font-size:16px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+    margin-right:15px;
+}
+/* The fourth box css style starts from here */
+#fourthBox{
+    display:flex;
+    justify-content:space-between;
+    width:88%;
+    height:600px;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom:80px;
+    background-color:whitesmoke;
+}
+#fourthBox>div{
+   width:40%;
+   height:100%;
+   background-color:whitesmoke;
+}
+#fourthBox-image>img{
+   width:100%;
+   height:100%;
+   padding:10px;
+}
+#fourthBox-matter{
+padding-top:100px;
+margin-right:9%;
+padding-bottom:0px;
+}
+#fourthBox-matter>p{
+font-size:18px;
+line-height:1.5em;
+}
+#fourthBox-btn{
+    height:45px;
+    width:320px;
+    font-size:16px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 5px;
+    margin-right:15px;
+    margin-top:20px;
+}
+/* Text on Image styles starts from here */
+#container{
+    height:500px;
+    width:88%;
+    position:relative;
+    background-color:#26415c;
+    margin:auto;
+}
+#container>img{
+    display:block;
+    width:80%;
+    height:100%;
+    padding-left:500px;  
+    margin-left:270px;
+}
+#textOnImage{
+    position:absolute;
+    top:100px;
+    left:100px;
+    color:white;
+    width:45%;
+}
+#textOnImage p{
+    font-size:18px;
+    line-height:1.8em;
+    color:white;
+}
+#textOnImage button{
+    height:40px;
+    width:100px;
+    border-radius:5px;
+    background-color:white;
+}
+/* footer First Box styles starts from here */
+#footer{
+    display:flex;
+    height:480px;
+    width:90%;
+    margin:auto;
+    margin-top:80px;
+}
+#footer>div{
+    width:20%;
+    margin-right:30px;
+}
+#footer>#firstdiv{
+    width:33%;
+}
+#firstdiv>h4+p{
+    color:black;
+}
+a{
+    color:grey;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+#footer>#lastdiv{
+    margin-right:1px;
+}
+p{
+    color:grey;
+}
+#footer>div>p:hover{
+    color:black;
+}
+/* Horizontal Line */
+hr{
+    width:90%;
+    color:grey;
+}
+/* footer Second box styles starts from here */
+#logoFooter{
+    display:flex;
+    width:90%;
+    height:50px;
+    justify-content:space-between;
+    margin:auto;
+}
+#logoFooter>div{
+    display:flex;
+    width:20%;
+}
+#pmatter{
+    justify-content:space-between;
+}
+#pmatter>p:hover{
+    color:black;
+}
+/* Styles for footer second box images */
+#imageLogo{
+    justify-content:space-between;
+    max-width:8%;
+    display:block;
+    padding-top:12px
+
+}
+#imageLogo>img{
+    filter: invert(57%) sepia(10%) saturate(18%) hue-rotate(317deg) brightness(87%) contrast(84%);
+    width:20px;
+    height:20px;
+}
+#imageLogo>img:hover{
+    filter: invert(0%) sepia(3%) saturate(7485%) hue-rotate(100deg) brightness(115%) contrast(95%);
+}
+@media all and (min-width:381px) and (max-width:700px){
+    #firstBox{
+        display:grid;
+    }
+    #firstBox>div{
+        width:auto;
+    }
+    #firstBox-matter{
+        padding:2px;
+    }
+    #firstBox-image{
+        max-width:100%;
+        margin-bottom:-100px;
+    }
+    #h1Box{
+        width:auto;
+        margin-top:80px;
+        margin-bottom:80px;
+    }
+    #secondBox{
+        display:grid;
+        grid-template-columns: repeat(1,fr);
+    }
+    #secondBox>div{
+        width:100%;
+        margin-bottom:40px;
+        height:auto;
+        margin-top:-30px;
+    }
+    #thirdBox{
+        display:grid;
+        margin-top:1000px;
+    }
+    #thirdBox>div{
+        width:auto;
+    }
+    #thirdBox-matter{
+        padding:2px;
+    }
+    #thirdBox-image{
+        max-width:100%;
+        margin-top:30px; 
+        margin-bottom:-80px;  
+    }
+    #fourthBox{
+        display:grid;
+        margin-top:350px
+    }
+    #fourthBox>div{
+        width:auto;
+        height:auto;
+    
+    }
+    #fourthBox-matter{
+        padding-bottom:100px;
+    }
+    #fourthBox-image{
+        margin-top:30px;
+    }
+    #footer{
+        display:grid;
+        margin-top:100px;
+    }
+    #footer>div{
+        width:100%;
+    }
+    #footer>#firstdiv{
+        width:100%;
+    }
+    #logoFooter{
+        display:grid;
+        margin-top:10px;
+    }
+    #logoFooter>div{
+        width:100%;
+        grid-gap:20px;
+    }
+    hr{
+        margin-top:930px;
+    }
+    #imageLogo>img{
+        margin-bottom:50px;
+    }
+    #container{
+        margin-top:600px;
+    }
+    #container>img{
+        padding-left:20px;
+    }
+    #textOnImage{
+        top:0;
+        left:50px;
+    }
+
+}

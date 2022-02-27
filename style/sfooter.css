@@ -1,0 +1,75 @@
+*{
+    font-family:apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+}
+/* footer First Box styles starts from here */
+#footer{
+    display:flex;
+    height:480px;
+    width:90%;
+    margin:auto;
+}
+#footer>div{
+    width:20%;
+    margin-right:30px;
+}
+#footer>#firstdiv{
+    width:33%;
+}
+#firstdiv>h4+p{
+    color:black;
+}
+a{
+    color:grey;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+#footer>#lastdiv{
+    margin-right:1px;
+}
+p{
+    color:grey;
+}
+#footer>div>p:hover{
+    color:black;
+}
+/* Horizontal Line */
+hr{
+    width:90%;
+    color:grey;
+}
+/* footer Second box styles starts from here */
+#logoFooter{
+    display:flex;
+    width:90%;
+    height:50px;
+    justify-content:space-between;
+    margin:auto;
+}
+#logoFooter>div{
+    display:flex;
+    width:20%;
+}
+#pmatter{
+    justify-content:space-between;
+}
+#pmatter>p:hover{
+    color:black;
+}
+/* Styles for footer second box images */
+#imageLogo{
+    justify-content:space-between;
+    max-width:8%;
+    display:block;
+    padding-top:12px
+
+}
+#imageLogo>img{
+    filter: invert(57%) sepia(10%) saturate(18%) hue-rotate(317deg) brightness(87%) contrast(84%);
+    width:20px;
+    height:20px;
+}
+#imageLogo>img:hover{
+    filter: invert(0%) sepia(3%) saturate(7485%) hue-rotate(100deg) brightness(115%) contrast(95%);
+}

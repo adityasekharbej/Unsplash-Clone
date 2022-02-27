@@ -1,0 +1,326 @@
+*{
+    font-family:apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+    color:#111;
+    box-sizing: border-box;
+}
+#stickyNavbar{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background-color:white;
+}
+#navbar{
+height: 70px;
+padding-top: 20px;
+display: flex;
+justify-content: space-around;
+margin:15px 0 30px 0;
+position: sticky;
+top: 0;
+z-index: 100;
+background-color: white;
+}
+
+#logo-img{
+width: 60px;
+height: 40px;
+padding-left: 20px;
+margin-right: -20px;
+margin-top: -5px
+}
+#search-bar{
+width: 750px;
+height: 40px;
+border-radius: 20px;
+background-color: #eeeeee;
+border: none;
+padding-left: 30px;
+margin-top: -5px
+}
+
+
+#navbar button{
+background-color: white;
+height: 30px;
+border: none;
+border: 1px solid #767676;
+color: #767676;
+border-radius: 5px;
+
+}
+#navbar a{
+margin-top:0px;
+color: #767676;
+text-decoration: none;
+}
+#navbar a:hover{
+color: black;
+}
+#navbar >div:nth-child(6){
+width: 1px;
+height: 30px;
+background-color: #767676
+}
+#navbar>div>a{
+font-size:14px;
+}
+
+/* Head box css styles start from here */
+#headBox{
+    display:flex;
+    border-bottom:1px solid #8e97a5;
+    margin-bottom:2px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:white;
+}
+#headBox>p{
+    margin-right:20px;
+    color:#8e97a5;
+    font-size: 15px;
+    margin-left:20px;
+}
+#headBox>p:hover{
+    color:black;   
+} 
+
+/* The first box styling starts from here */
+#firstBox{
+    height:400px;
+    margin-top:100px;
+}
+#firstBox>img{
+    width:100%;
+    height:100%;
+    
+}
+/* The second box css style starts from here */
+#secondBox{
+    width:40%;
+    height:200px;
+    margin:auto;
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:100px;
+}
+#secondBox>p{
+    font-size:18px;
+    line-height:1.5em;
+}
+
+/* 2021 css style starts from here */
+#p-2021{
+    font-size:70px;
+    color:rgb(238, 238, 238);
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:60px;
+}
+#p-2021>p{
+    color:#f5f5f5;
+}
+
+/* The third box styles starts from here */
+
+#thirdBox{
+    display:flex;
+    width:85%;
+    height:400px;
+    margin:auto;
+    margin-bottom:100px;
+    padding:30px;
+}
+#thirdBox>div{
+    width:60%;
+    height:100%;
+}
+#thirdBox>div:first-child{
+    height:100%;
+    max-width:40%;   
+}
+#thirdBox>div>img{
+    height:100%;
+    width:100%;
+}
+#thirdBox-matter{
+    margin-left:5%;
+    padding:50px 0px 50px 0px
+}
+#thirdBox-matter>h2{
+    font-size:28px;
+}
+#thirdBox-matter>p{
+    font-size:18px;
+}
+#thirdBox-matter>a{
+    color: #767676;
+    font-size:18px;
+}
+#thirdBox-matter>a:hover{
+    color:black;
+}
+/* The fourth box style starts from here */
+#fourthBox{
+    display:flex;
+    width:85%;
+    height:400px;
+    margin:auto;
+    margin-bottom:100px;
+    padding:30px;
+}
+#fourthBox>div{
+    width:60%;
+    height:100%;
+}
+#fourthBox>div:first-child{
+    height:100%;
+    max-width:40%;   
+}
+#fourthBox>div>img{
+    height:100%;
+    width:100%;
+}
+#fourthBox-matter{
+    margin-left:5%;
+    padding:40px 0px 50px 0px
+}
+#fourthBox-matter>h2{
+    font-size:28px;
+}
+#fourthBox-matter>p{
+    font-size:18px;
+    padding-right:2%;
+    line-height:1.5em;
+}
+#fourthBox-matter>a{
+    color: #767676;
+    font-size:18px;
+}
+#fourthBox-matter>a:hover{
+    color:black;
+}
+/* The fifth box style starts from here */
+#fifthBox{
+    display:flex;
+    width:85%;
+    height:400px;
+    background-color:#f5f5f5;
+    margin:auto;
+    margin-bottom:100px;
+    padding:30px;
+}
+#fifthBox>div{
+    width:60%;
+    height:100%;
+}
+#fifthBox>div:first-child{
+    height:100%;
+    max-width:40%;   
+}
+#fifthBox>div>img{
+    height:100%;
+    width:100%;
+}
+#fifthBox-matter{
+    margin-left:5%;
+    padding:50px 0px 50px 0px
+}
+#fifthBox-matter>h2{
+    font-size:28px;
+}
+#fifthBox-matter>p{
+    font-size:18px;
+    padding-right:2%;
+    line-height:1.5em;
+}
+#fifthBox-matter>a{
+    color: #767676;
+    font-size:18px;
+}
+#fifthBox-matter>a:hover{
+    color:black;
+}
+/* The sixth box style starts from here */
+#sixthBox{
+    display:flex;
+    width:85%;
+    height:400px;
+    margin:auto;
+    margin-bottom:100px;
+    padding:30px;
+}
+#sixthBox>div{
+    width:60%;
+    height:100%;
+}
+#sixthBox>div:first-child{
+    height:100%;
+    max-width:40%;   
+}
+#sixthBox>div>img{
+    height:100%;
+    width:100%;
+}
+#sixthBox-matter{
+    margin-left:5%;
+    padding:40px 0px 50px 0px
+}
+#sixthBox-matter>h2{
+    font-size:28px;
+}
+#sixthBox-matter>p{
+    font-size:18px;
+    padding-right:2%;
+    line-height:1.5em;
+}
+#sixthBox-matter>a{
+    color: #767676;
+    font-size:18px;
+}
+#sixthBox-matter>a:hover{
+    color:black;
+}
+ /* The seventh box style starts from here */
+ #seventhBox{
+    display:flex;
+    width:85%;
+    height:400px;
+    margin:auto;
+    margin-bottom:100px;
+    padding:30px;
+}
+#seventhBox>div{
+    width:60%;
+    height:100%;
+}
+#seventhBox>div:first-child{
+    height:100%;
+    max-width:40%;   
+}
+#seventhBox>div>img{
+    height:100%;
+    width:100%;
+}
+#seventhBox-matter{
+    margin-left:5%;
+    padding:40px 0px 50px 0px
+}
+#seventhBox-matter>h2{
+    font-size:28px;
+}
+#seventhBox-matter>p{
+    font-size:18px;
+    padding-right:2%;
+    line-height:1.5em;
+}
+#seventhBox-matter>a{
+    color: #767676;
+    font-size:18px;
+}
+#seventhBox-matter>a:hover{
+    color:black;
+}
+@media all and (min-width:381px) and (max-width:700px){
+    
+}
