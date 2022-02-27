@@ -1,0 +1,192 @@
+.container {
+  height: 2180px;
+  width: 55%;
+  margin: auto;
+}
+.parent {
+  height: 80px;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+#p1 {
+  margin-top: 10px;
+  width: 50%;
+}
+#image {
+  height: 65px;
+  width: 68px;
+}
+#button {
+  margin-top: 25px;
+  width: 25%;
+}
+#button1 {
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  color: rgb(139, 139, 139);
+}
+#all {
+  height: 52px;
+  width: 97.6%;
+  background-color: rgb(40, 180, 40);
+  color: white;
+  margin-top: 50px;
+  padding: 0.1px 0px 2px 19px;
+  font-size: 20px;
+}
+#over {
+  height: 15px;
+  width: 100%;
+  text-align: right;
+  margin-top: 90px;
+  padding: 2px 0px 0px 0px;
+}
+.operation {
+  height: 390px;
+  width: 100%;
+  margin-top: 30px;
+  border: 2px solid rgb(163, 163, 163);
+}
+#div1 {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  border-bottom: 2px solid rgb(163, 163, 163);
+  justify-content: space-between;
+}
+#api {
+  margin-left: 15px;
+  padding-bottom: 5px;
+}
+#api1 {
+  font-size: 20px;
+}
+#oper {
+  margin-right: 20px;
+  padding-top: -2px;
+}
+#oper1 {
+  font-size: 18px;
+  color: rgb(35, 161, 35);
+}
+
+#div {
+  height: 135px;
+  width: 100%;
+  border-bottom: 2px solid rgb(163, 163, 163);
+}
+#div2 {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#scale {
+  margin-top: 2px;
+  height: 50px;
+  width: 100%;
+}
+#scale1 {
+  height: 60px;
+  width: 100%;
+}
+#div3 {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#main {
+  height: 100px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#system {
+  height: 60px;
+  width: 50%;
+  margin-top: 10px;
+}
+#system1 {
+  font-size: 35px;
+}
+#date {
+  height: 50px;
+  width: 40%;
+  margin-top: 20px;
+  display: flex;
+}
+#day {
+  margin-left: 100px;
+  margin-right: 7px;
+}
+#da {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#day1 {
+  font-size: 20px;
+}
+#day2 {
+  font-size: 20px;
+  color: rgb(163, 163, 163);
+}
+#graph {
+  margin-top: 2px;
+  height: 260px;
+  width: 100%;
+}
+#graph1 {
+  height: 270px;
+  width: 100%;
+}
+#past {
+  height: 60px;
+  width: 100%;
+  margin-top: 40px;
+}
+#past1 {
+  font-size: 35px;
+}
+#date1 {
+  height: 22px;
+  width: 100%;
+}
+#date2 {
+  height: 22px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+#report {
+  font-size: 20px;
+  border-bottom: 1px solid rgb(163, 163, 163);
+}
+#report1 {
+  font-size: 18px;
+  color: rgb(163, 163, 163);
+}
+#rep {
+  font-size: 19px;
+}
+#resolved {
+  height: 40px;
+  width: 100%;
+  line-height: 9px;
+}
+#resol {
+  font-size: 16px;
+  color: rgb(163, 163, 163);
+}
+#history {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding-top: -1px;
+  border-top: 0.1px solid rgb(163, 163, 163);
+}
