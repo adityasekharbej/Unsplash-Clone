@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d01e7b0580.js" crossorigin="anonymous"></script>
+    <style>
+
+        *{
+            font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+        }
+
+        #navbar{
+    height: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin:15px 0 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+#logo-img{
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    margin-right: -20px;
+    margin-top: -5px
+}
+#search-bar{
+    width: 750px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    border: none;
+    padding-left: 30px;
+    margin-top: -5px
+}
+
+
+#navbar button{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border: 1px solid #767676;
+    color: #767676;
+    
+    border-radius: 5px;
+    
+}
+#navbar a{
+    margin-top:0px;
+    color: #767676;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: black;
+}
+#navbar >div:nth-child(6){
+    width: 1px;
+    height: 30px;
+    background-color: #767676
+}
+        #container{
+            display: flex;
+        }
+
+      #button{
+          padding:8px;
+          background-color: black;
+          color: white;
+      }
+
+        #first{
+            margin-top: 30%;
+        }
+        #firstimg{
+           margin-left: 250px;
+        }
+
+        #h2 {
+          text-align: center;
+          margin-top: 100px;
+        }
+        #box{
+  display:grid;
+  grid-template-columns: repeat(3,1fr) ;
+  grid-template-rows: 450px;
+ /* border: 1px solid black; */
+  margin-top: 50px;
+  gap:15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#box div {
+    /* border: 1px solid black; */
+}
+#box>div>img{
+
+width:100%;
+height:280px;
+border-radius: 0%;
+}
+
+a{
+   color: #76768c;
+}
+
+#middle{
+    margin: auto;
+    height:200px;
+    width: 575px;
+    margin-top: 80px;
+ /* border: 1px solid black; */
+ 
+   
+    
+}
+#middle>h2{
+    text-align: center;
+}
+#button2{
+          padding:10px;
+          background-color: black;
+          color: white; 
+          margin-left: 200px ;         
+      }
+
+      #pics{
+        display:grid;
+        grid-template-columns: repeat(6,1fr) ;
+         grid-template-rows: 50px;
+         margin-top: 50px;
+   
+
+      }
+
+ #pics>div{
+
+     margin: auto;
+ }
+
+ #large{
+     height: 600px;
+     width:1fr;
+     border:1px solid black;
+     margin-top: 50px
+ }
+#small{
+    height:500px;
+    width:450px;
+    border: 1px solid black;
+
+    margin-top: 50%;
+}
+#fullimg{
+   margin-top: 50px;
+     height: 550px;
+     width: 1fr;  
+ }
+
+
+ #halfimg{
+     height: 800px;
+     width:1fr;
+     /* border: 1px solid black; */
+     display: flex;
+     margin-top: 50px;
+ }
+
+ #half1{
+     height:500px;
+     width:500px;
+     /* border: 1px solid black;   */
+ }
+
+ #half1>h2{
+     margin-top: 40%;
+     
+ }
+
+ #btn{
+     padding:8px;
+  
+ }
+
+ #ahalfimg{
+     height:800px;
+     width:650px;
+    
+     display: flex;
+     margin-left: 190px;   
+     gap: 20px
+     ;
+
+ }
+
+ #half2{
+     height:800px;
+     width:350px;
+ }
+
+ #greybox{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: 600px;
+     background-color: #f5f5f5;
+     /* border: 1px solid black; */
+ }
+
+ #grey2{
+    /* border: 1px solid black; */
+    display:flex;
+    align-items: center;
+     justify-content: center;
+ }
+ 
+ #recbox {
+     height:200px;
+     width:470px;
+     
+ }
+
+ #btn2{
+    padding:8px;
+    background-color: black;
+          color: white; 
+ }
+ #greypic{
+      padding: 50px;
+ }
+
+
+/* 
+  @media only screen and (min-width: 421px) and (max-width: 767px) {
+
+    #container{
+            display: block;
+        }
+
+        #first{
+            margin-top: 30%;
+        }
+        
+       
+
+        #h2 {
+          text-align: center;
+          margin-top: 100px;
+        }
+
+        #box{
+  display:grid;
+  grid-template-columns: repeat(1,1fr) ;
+  grid-template-rows: 450px;
+
+   margin-top: 50px;
+  gap:15px;
+  margin-left: 10px;
+  
+} 
+#pics{
+        display:grid;
+        grid-template-columns: repeat(4,1fr) ;
+         grid-template-rows: 50px;
+         margin-top: 50px;
+         gap:20px;
+
+      }   
+         
+
+
+      #fullimg{
+   margin-top: 50px;
+     height: 250px;
+     width: 1fr;  
+     margin-left: 20px;
+      }
+  
+
+      
+  #halfimg{
+     height: 800px;
+     width:1fr; 
+   
+      display: block;
+     
+     margin-left: -200px;
+ }  
+
+
+#half1{
+    height:400px;
+    width:500px;
+    margin-left: 250px;
+  
+}
+
+
+ #ahalfimg{
+     height:800px;
+     width:650px;
+
+     display: flex; 
+     padding: 40px;
+     
+     gap: 20px
+     ;  
+
+ } 
+
+ #greybox{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     grid-template-rows: 600px;
+     background-color: #f5f5f5;
+     margin-top: 500px;
+
+  }
+    
+
+  #half1{
+     height:300px;
+     width:500px;
+     margin-left: 300px;
+  }
+ 
+} */
+
+
+
+/* @media only screen and (min-width: 0px) and (max-width: 420px) {
+
+    
+    #container{
+            display: block;
+        }
+
+        #first{
+            margin-top: 30%;
+        }
+        
+        #firstimg{
+           margin-left: 0px;
+        }
+        #h2 {
+          text-align: center;
+          margin-top: 100px;
+          margin-left: 30px;
+        }
+
+        #box{
+        display:grid;
+        grid-template-columns: repeat(1,1fr) ;
+         grid-template-rows: 450px;
+
+          margin-top: 50px;
+          gap:15px;
+           margin-left: 50px;
+  
+}       
+
+      #pics{
+        display:grid;
+        grid-template-columns: repeat(3,1fr) ;
+         grid-template-rows: 50px;
+         margin-top: 50px;
+         gap: 40px;
+   
+
+          }
+
+          #fullimg{
+   margin-top: 50px;
+     height: 200px;
+     width: 1fr;  
+ 
+      }
+ }
+               
+  #halfimg{
+     height: 800px;
+     width:1fr; 
+   
+      display: block;
+     
+     margin-left: -200px;
+ }    
+
+
+       
+#half1{
+    height:400px;
+    width:500px;
+    margin-left: 250px;
+  
+}
+
+
+ #ahalfimg{
+     height:800px;
+     width:650px;
+
+     display: flex; 
+     padding: 40px;
+     
+     gap: 20px
+     ;  
+
+ } 
+
+ #greybox{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     grid-template-rows: 600px;
+     background-color: #f5f5f5;
+     margin-top: 500px;
+
+  }
+    
+
+  #half1{
+     height:300px;
+     width:500px;
+     margin-left: 300px;
+  }
+
+
+
+} */
+
+    </style>
+</head>
+<body>
+
+    <div id="navbar">
+        <div>
+            <img src="logo.jpeg" alt="" id="logo-img">
+        </div>
+        <div>
+            <input type="text" placeholder="🔎 Search free high-resolution photos" id="search-bar">
+        </div>
+        <div>
+            <a href="explore.html">Explore</a>
+        </div>
+        <div>
+            <a href="advertise.html">Advertise</a>
+        </div>
+        <div>
+            <a href="blog.html">Blog</a>
+        </div>
+        <div></div>
+        <div>
+            <a href="login.html">Log in</a>
+        </div>
+        <div>
+            <button>Submit a photo</button>
+        </div>
+        <div><i class="fa-solid fa-bars"></i></div>
+    </div>
+
+    <div id="container">
+    <div id="first">
+    <h1>Contribute Today</h1>
+    <p>Share your images with millions of people around the world</p>
+    <button id="button" href="login.html">Upload a Photo</button>
+</div>
+
+   <div>
+       <img id="firstimg" src="https://unsplash-assets.imgix.net/marketing/community-header.jpg"  height="800px" width="700px
+       ">
+   </div> 
+
+</div>
+<div id="h2">
+<h2>Unsplash is like any other Platform</h2>
+</div>
+
+<div id="box">
+
+    <div>
+  <img src="https://unsplash-assets.imgix.net/marketing/misc/img04.jpg?auto=format&fit=crop&q=60">
+  <h3>Everyone is welcome</h3>
+  <p>Our growing community of over 210,000 contributors range from hobbyists to total pros, all working to make Unsplash everything that it is today.</p>
+  <a href="login.html">Join us today</a>
+    </div>
+    
+    <div>
+        <img src="https://unsplash-assets.imgix.net/marketing/misc/img05.jpg?auto=format&fit=crop&q=60">
+        <h3>No camera? No problem!</h3>
+  <p>You don’t need fancy equipment to start contributing to Unsplash—submitting a photo can be as simple as picking up your phone and taking a few photos</p>
+  <a href="https://unsplash.com/blog/take-your-mobile-photography-to-the-next-level/">Discover our top tips for mobile photography</a>
+    </div>
+   <div>
+    <img src="https://unsplash-assets.imgix.net/marketing/misc/img06.jpg?auto=format&fit=crop&q=60">
+    <h3>Measure your impact</h3>
+  <p>Like numbers? Us too. We provide stats on every photo you upload so you can understand how your photos are helping others around the world</p>
+  <a href="https://unsplash.com/trends">See what’s trending</a>
+    </div>
+</div>
+
+<div id="middle">
+    <h2>See your work in the wild</h2>
+    <p style="font-size: 18px
+    ;">Unsplash has quickly become the internet’s source of visuals—powering everything from Apple keynotes to high school Art projects. By contributing your images, you are pushing creativity forward every day.</p>
+    <button  id="button2" href="" >See unsplash remixes</button>
+</div>
+
+<div id="pics">
+   <div>
+       <img src="https://unsplash-assets.imgix.net/marketing/logos/trello.svg?auto=format&fit=crop&q=60">
+
+   </div>
+   <div>
+       <img src="https://unsplash-assets.imgix.net/marketing/logos/buzzfeed.svg?auto=format&fit=crop&q=60">
+   </div>
+   <div>
+       <img src="https://unsplash-assets.imgix.net/marketing/logos/squarespace.svg?auto=format&fit=crop&q=60">
+   </div>
+   <div>
+       <img src="https://unsplash-assets.imgix.net/marketing/logos/wix.svg?auto=format&fit=crop&q=60">
+   </div>
+   <div>
+       <img src="https://unsplash-assets.imgix.net/marketing/logos/medium.svg?auto=format&fit=crop&q=60">
+   </div>
+   <div>
+       <img src="https://unsplash-assets.imgix.net/marketing/logos/square.svg?auto=format&fit=crop&q=60">
+   </div>
+    
+
+</div>
+<div id="fullimg">
+<img id="fullimg1" src="https://unsplash-assets.imgix.net/marketing/madewith-banner.jpg?auto=format&fit=crop&w=1500&q=60" width="100%" height="100%">
+
+</div>
+
+<div id="halfimg">
+
+    <div id="half1">
+        <h2>Connect with creators from everywhere</h2>
+        <p style="font-size: 18px
+        ;">Whether you’ve got a question, you’re looking for feedback on your latest photo, or you need tips on where to shoot—the Unsplash chat room makes it easy to connect with our community in real time.</p>
+            <button id="btn">Join the Conversation</button>
+    </div>
+
+
+    <div id="ahalfimg">
+        <div id="half2">
+            <img src="https://unsplash-assets.imgix.net/marketing/community/photographer01.jpg?auto=format&fit=crop&q=60" height="400px" width="350px">
+            <p>Kirill, Designer</p>
+            <p style="color: 
+            #767676; margin-top: -10px;">Joined August 12, 2014</p>
+
+            <img src="https://unsplash-assets.imgix.net/marketing/community/photographer02.jpg?auto=format&fit=crop&q=60" height="200px" width="200px" style="margin-top: 25px
+            ;">
+            <p>Annie, Community Manager</p>
+            <p style="color: 
+            #767676; margin-top: -10px;">Joined August 30, 2015</p>
+        </div>
+        <div id="half2">
+            <img src="https://unsplash-assets.imgix.net/marketing/community/photographer03.jpg?auto=format&fit=crop&q=60" height="200px" width="200px">
+            <p>Toa, Photographer</p>
+            <p style="color: 
+            #767676; margin-top: -10px;">Joined March 28, 2016</p>
+
+            <img src="https://unsplash-assets.imgix.net/marketing/community/photographer04.jpg?auto=format&fit=crop&q=60" height="200px" width="200px" style="margin-top: 25px
+            ;">
+            <p>Aaron, Photographer</p>
+            <p style="color: 
+            #767676; margin-top: -10px;">Joined May 18, 2015</p>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="greybox">
+
+   
+        <div id="greypic">
+            <img src="https://unsplash-assets.imgix.net/marketing/misc/photo-grid.png?auto=format&fit=crop&q=60" width="100%" height="500px">
+      </div>
+    <div id="grey2">
+        <div id="recbox">
+       <h2>
+        Find events organized by the community</h2>
+        <p style="font-size: 18px
+        ;">Over the past years, Unsplash members have hosted gatherings, led photowalks, run exciting events around the world, making Unsplash accessible to everyone around the world. Sound fun?</p>
+        <button id="btn2">Get Involved</button>
+        </div>
+    </div>
+
+</div>
+
+
+<div
+
+
+    
+</body>
+</html>

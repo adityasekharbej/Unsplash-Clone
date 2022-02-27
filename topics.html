@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics</title>
+    <script src="https://kit.fontawesome.com/d01e7b0580.js" crossorigin="anonymous"></script>
+    <style>
+
+      *{
+        font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+      }
+      #navbar{
+    height: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin:15px 0 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+#logo-img{
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    margin-right: -20px;
+    margin-top: -5px
+}
+#search-bar{
+    width: 750px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    border: none;
+    padding-left: 30px;
+    margin-top: -5px
+}
+
+
+#navbar button{
+    background-color: white;
+    height: 30px;
+    border: none;
+    border: 1px solid #767676;
+    color: #767676;
+    border-radius: 5px;
+    
+}
+#navbar a{
+    margin-top:0px;
+    color: #767676;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: black;
+}
+#navbar >div:nth-child(6){
+    width: 1px;
+    height: 30px;
+    background-color: #767676
+}
+        a{
+            color:#76768c;
+        }
+        p{
+            
+           
+        }
+        #Intro{
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        .box{
+            height:350px;
+            width:400px;
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+            
+        }
+       
+            .box img{
+              border-top-right-radius: 5px ;
+              border-top-left-radius: 5px ;
+            }
+
+        .box:hover{
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+
+        .sideimg{
+            margin-left: 180px;
+             border-radius: 50%;
+             margin-top: 15px;
+          
+        }
+
+        #afterimg{
+            margin-left: 20px;
+        }
+        .contributor{
+          margin-top: -18px;
+          margin-left: 20px;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 350px;
+            /* border: 1px solid black; */
+            gap:15px;
+            margin-top: 20px;
+           
+            }
+            @media only screen and (min-width: 421px) and (max-width: 720px) {
+
+              .container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: 350px;
+            /* border: 1px solid black; */
+            gap:15px;
+            margin-top: 20px;
+           
+            }
+
+            }
+
+
+            @media only screen and (min-width: 0px) and (max-width: 420px) {
+
+
+
+              .container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: 350px;
+            /* border: 1px solid black; */
+            gap:15px;
+            margin-top: 20px;
+           
+            }
+
+            }
+    </style>
+</head>
+<body>
+  <div id="navbar">
+    <div>
+        <img src="logo.jpeg" alt="" id="logo-img">
+    </div>
+    <div>
+        <input type="text" placeholder="🔎 Search free high-resolution photos" id="search-bar">
+    </div>
+    <div>
+        <a href="explore.html">Explore</a>
+    </div>
+    <div>
+        <a href="advertise.html">Advertise</a>
+    </div>
+    <div>
+        <a href="blog.html">Blog</a>
+    </div>
+    <div></div>
+    <div>
+        <a href="login.html">Log in</a>
+    </div>
+    <div>
+        <button>Submit a photo</button>
+    </div>
+    <div><i class="fa-solid fa-bars"></i></div>
+</div>
+    
+    <div id="Intro">
+        <h1>Topics</h1>
+        <p style="font-size: 18px;">Explore the world through topics of beautiful photos free to use under the<br><a href="https://unsplash.com/license">Unsplash license.</a></p>
+    </div>
+
+    <div>
+        <h2>Featured</h2>
+
+
+        <div class="box">
+          <div>
+           <img src="/img1.png" width="100%" height="150px">
+           </div>
+
+          <div id="afterimg">
+
+           <div style="display: flex;">
+
+            <div>
+            <h3>Entrepreneur</h3>
+             <p style="margin-top: -12px; color:#76768c;">by Surface</p>
+             </div>
+
+            <div >
+            <img  class="sideimg" src="https://images.unsplash.com/profile-1587651800415-20eed2ec0209image?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+             </div>
+
+              </div>
+              <p style="font-size: 16px;">Microsoft Surface is taking over the Entrepreneur Topic to applaud the tireless effort that goes into...</p>
+
+             <div style="display: flex;">
+              <div>
+                <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+               </div>
+              <div class="contributor">
+                <p>113 contributions</p></div>
+             </div>
+        </div>
+    </div>
+    </div>
+
+    <h2 style="margin-top: 30px;margin-bottom: 30px;">All Topics</h2>
+
+    <div class="container">
+
+
+
+
+        <div class="box">
+            <div>
+                <img src="/img 1.1.jpg" width="100%" height="150px">
+            </div> 
+            
+            <div id="afterimg">
+                <div style="display: flex;">
+
+                    <div>
+                    <h3>Wallpapers</h3>
+                     <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                     </div>
+        
+                    <div >
+                    <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                     </div>
+
+            </div>
+
+            <p style="font-size: 16px;">From epic drone shots to inspiring moments in nature — submit your best desktop and mobile</p>
+
+            <div style="display: flex;">
+                <div>
+                  <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+                 </div>
+                <div class="contributor">
+                  <p>9.6K contributions</p></div>
+               </div>
+            
+        </div>
+        
+      
+        </div>
+       
+        
+
+
+
+
+        
+      <div class="box">
+        <div>
+            <img src="/img 1.2.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3> 3D Renders</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">or the first time ever, Unsplash is accepting a new category of images outside of photography. Submi...</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>1.7K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+      <div class="box">
+        <div>
+            <img src="/img 1.3.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Textures </h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src= "https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Whether you’re looking for stunning macro-photography or shots of complex architectural...</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>9.7K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+
+    </div>    
+
+    <div class="container">
+
+
+
+
+        <div class="box">
+            <div>
+                <img src="/img 2.1.jpg" width="100%" height="150px">
+            </div> 
+            
+            <div id="afterimg">
+                <div style="display: flex;">
+
+                    <div>
+                    <h3>Architecture</h3>
+                     <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                     </div>
+        
+                    <div >
+                    <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                     </div>
+
+            </div>
+
+            <p style="font-size: 16px;">Explore exteriors from around the world — from brutalist buildings to minimalist structures that will..</p>
+
+            <div style="display: flex;">
+                <div>
+                  <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+                 </div>
+                <div class="contributor">
+                  <p>7.5K contributions</p></div>
+               </div>
+            
+        </div>
+        
+      
+        </div>
+       
+        
+
+
+
+
+        
+      <div class="box">
+        <div>
+            <img src="/img 2.2.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Experimental</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Through the use of unlikely textures, intriguing subject matter, and new formats — photography h..</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>5.8K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+      <div class="box">
+        <div>
+            <img src="/img 2.3.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Nature </h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src= "https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Let’s celebrate the magic of Mother Earth — with images of everything our planet has to offer, from..</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEg8SEhIOEg0SDRIRDxAPEA8PDQ8QFR0XFxURExUYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLiwBCgoKDg0OFQ8PFysdFR0tLTctLS0rKy0rNy0tKystKzcrKzcrKysrLS0rLSsrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAQUGAgQDB//EAD0QAAIBAgEGCgcIAgMAAAAAAAABAgMRBQQhMVGRsRIiQVJhcXKBwdEVI3OSoaLhBjIzQlNiY4ITshQk8f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A/QAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAYAhEkIggAGh0ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgMAQiSEQQADQ6ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGAIRJCIIABodAAgAAAAAAAAFjgmTqc22rqKWZ6LvRuZXF59n48Wb1zS2L6hVpY+M8kpvTCD/qrldjmUyjKCjKUeK2+C2r30bmeCGI1l+d96T3oC5qYVRf5Wuy2vofJ4JT5JVNsX4HhhjFVaeA+tPwZ9oY5Llgn1Sa8AO54Hqntj9TzzwaqtDg+9p/FHqhjkeWEl1NM+qxml+9f1Aq3hdbmfNHzPlPIqq00590XLcX1PFKLzcK3aTitrPvDKacsynBvUpJsDKyptaU11po5Njc+c6EHpjF9cUwYyQNPPDqL/ACR7rx3FRimHqlaUW3BuzT0pgV4ACAYDAEIkhEEAA0OgAQAAAAAExi20krtuyS0s9qwmtqiuuSIwf8WH9tzNBWqqEXJ3sld20hVEsHq/s95+R6MnyHKYK0Zwir3tpz98T7+mqWqpsj5kem6fNqbI+YHwrYXWm7ynByta+fR3I5WCT58djPR6bhzZ/L5nPpyPMltQHyWBy5691+Z0sD/k+T6nXpyPMl7yI9OL9N+99ACwNfqP3fqdLA48+WxHHpz+P5/oR6cf6a9/6AfVYJDnT+XyOvQlPnVNsfI8/pyXMXvPyPrkmLSnOMeDFJu17tsDyYhhrpLhRbcOW+mLPFGrJaJSXVJo02Ir1VT2cjLAXWB15yc1KUpRUVa+fO+nTyH2x38L+68T4fZ6P4j7K3+Z39oJcWC1zb2L6gUYACAYDAEIkhEEAA0OgAQAAAAAHrwp+tp9b3Mu8V/CqdXiiiw5+tp9sv8AEVelU7DCsuAAgAAAAAF1kWEK16l23+VNpLrtylTk334X0f5I32o1oWKvKsHg1xOLLU23F7dBV5AmqsE8zU7NanoNQZ6o/wDs5v1o+FwLrLvw6ns5bjKmsytcSp7OW5mTBWgwKFqd9c29mbwPJ9oJcaC1Rb2/+FhhK9VDv3sqManerLojFePiB4QAEAwGAIRJCIIABodAAgAAAAAPtkT9ZT9pHejS5Yr06ns5bmZjJnx4duO9GqrK8ZL9rCxkQEffI8mdSSitGmT1LWEejCcj/wAkryXEjslLUWuX4fGosySmtDtbufQeqlTUEoxVopZjsLjIVIOLaatJOzRyaLE8PVRXWaolm1SWpmelFptNWadmnpTAguMkxlJWqJ35ytn60U4Au8pxmNmoJuWtqyXT0lTkr9ZB8v8Aki/icSpyWdxklraaRNB8aPbjvA1WU/cn2JbjJGurfdl2WZGKvZcrzIFavI4cGEFqgtxnMRlerU7bWzN4GoirJGSrSvKT1yb2sDgABAMBgCESQiCAAaHQAIAAAAADqDs11o1zMebFBYxyXJy6LGmw3JFSj+955Pw7ivwbJ051JPTB2iul3z/AuwQAAUKzFsg4a4cVx1pXOXmWYAxxb4Rh97VJrNphF/7M9mUYZCc1PRzo8knyHuCY4rU1OLi86aszMV6Dpz4L5GmnrXIzVFXj8FwIy/Mp2v0O+b4IFWU9D6mZjDocKpTX7k9mfwNRydxncFjerHoUn8LeIGhqyspPVFvYZBGqy+VqdT2ctxlQUAAQDAYAhEkIggAGh0ACAAAAAAM19J3UeyjIGsyV3hDsR3BY8GEZp5Qv5PGRaFVhztXrrW2/j9S1CgAAAAAAABXY8vVf2XiWJXY6/VPtID303mXUikwCPHm9UbbX9C5oPix7K3FVgP3qvdvYHsxiVqU+ngr4ozZoMdlal1zivHwM+EoAAgGAwBCJIRBAANDoAEAAAAAANVkD9XT9nHcZU0+GP1VPshYrXWVLKZuWaL0vO9KT5OlHv9K0Of8ALPyPRUyaEneUIt62k2cvJKfMp+7EDyzxmktHCl0pW32OHjdPmz+XzPcslp8yHuxO1SitEY7EFVrxuPJCbfTZHz9L1Hopf7PwLmwCKb0jlD0UvkqEf8rK3ohb+lt7LoBVRFZY+WMevgeFz518hymatKUWr3teyv3IuwB86EHGMU9Kik+tIq8D+/W6/FlwU+DfiVut72ET9oJ5qa1yb2ZvEpSzx+XHitUL7W/IrAAACAYDAEIkhEEAA0OgAQAAAAAA0uEP1NPqe9maNFgsvVR6HJfG/iFj3gAKAAAAAAAAAHLqRWlragOihyPKo0qtZyvZyklZXz3Za18upwV3JN6ovhN7DMTldt8rbe0JX0yqu6k5SfK8y1LkR8gAgAAAYDAEIkhEEAA0OgAQAAAAAA9mQYhKkmrKUW72btZ9DPGALd44/wBNe99Dh43PkjDvuyrAVZPGquqGx+Zw8Xra4rqieAAex4nW5+yMfI4eX1X+eXdZHmAH2eV1OfU95nDrSemUn1yZwAiWzmxIAAAAAAAAABgMAQiSEQQADQ6ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGAIRJCIIABodAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDAEIkhEEAA0OgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAQgCCAAaH/2Q== " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>11.2K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+
+    </div> 
+
+
+    <div class="container">
+
+
+
+
+        <div class="box">
+            <div>
+                <img src="/img 3.1.jpg" width="100%" height="150px">
+            </div> 
+            
+            <div id="afterimg">
+                <div style="display: flex;">
+
+                    <div>
+                    <h3>Business & work</h3>
+                     <p style="margin-top: -12px; color:#76768c;">by Surface</p>
+                     </div>
+        
+                    <div >
+                    <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                     </div>
+
+            </div>
+
+            <p style="font-size: 16px;">Reflecting the realities of the modern workplace in their many forms — from images of remote workin..</p>
+
+            <div style="display: flex;">
+                <div>
+                  <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+                 </div>
+                <div class="contributor">
+                  <p>9.6K contributions</p></div>
+               </div>
+            
+        </div>
+        
+      
+        </div>
+       
+        
+
+
+
+
+        
+      <div class="box">
+        <div>
+            <img src="/img 3.2.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Fashion</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">From street-style shots to editorial photography — find the latest trends in beauty and fashion.</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>7K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+      <div class="box">
+        <div>
+            <img src="/img 3.3.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Film</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src= "https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Beautiful analog photography from the past and present day — featuring polaroids, black and white..</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEg8SEhIOEg0SDRIRDxAPEA8PDQ8QFR0XFxURExUYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLiwBCgoKDg0OFQ8PFysdFR0tLTctLS0rKy0rNy0tKystKzcrKzcrKysrLS0rLSsrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAQUGAgQDB//EAD0QAAIBAgEGCgcIAgMAAAAAAAABAgMRBQQhMVGRsRIiQVJhcXKBwdEVI3OSoaLhBjIzQlNiY4ITshQk8f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A/QAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAYAhEkIggAGh0ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgMAQiSEQQADQ6ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGAIRJCIIABodAAgAAAAAAAAFjgmTqc22rqKWZ6LvRuZXF59n48Wb1zS2L6hVpY+M8kpvTCD/qrldjmUyjKCjKUeK2+C2r30bmeCGI1l+d96T3oC5qYVRf5Wuy2vofJ4JT5JVNsX4HhhjFVaeA+tPwZ9oY5Llgn1Sa8AO54Hqntj9TzzwaqtDg+9p/FHqhjkeWEl1NM+qxml+9f1Aq3hdbmfNHzPlPIqq00590XLcX1PFKLzcK3aTitrPvDKacsynBvUpJsDKyptaU11po5Njc+c6EHpjF9cUwYyQNPPDqL/ACR7rx3FRimHqlaUW3BuzT0pgV4ACAYDAEIkhEEAA0OgAQAAAAAExi20krtuyS0s9qwmtqiuuSIwf8WH9tzNBWqqEXJ3sld20hVEsHq/s95+R6MnyHKYK0Zwir3tpz98T7+mqWqpsj5kem6fNqbI+YHwrYXWm7ynByta+fR3I5WCT58djPR6bhzZ/L5nPpyPMltQHyWBy5691+Z0sD/k+T6nXpyPMl7yI9OL9N+99ACwNfqP3fqdLA48+WxHHpz+P5/oR6cf6a9/6AfVYJDnT+XyOvQlPnVNsfI8/pyXMXvPyPrkmLSnOMeDFJu17tsDyYhhrpLhRbcOW+mLPFGrJaJSXVJo02Ir1VT2cjLAXWB15yc1KUpRUVa+fO+nTyH2x38L+68T4fZ6P4j7K3+Z39oJcWC1zb2L6gUYACAYDAEIkhEEAA0OgAQAAAAAHrwp+tp9b3Mu8V/CqdXiiiw5+tp9sv8AEVelU7DCsuAAgAAAAAF1kWEK16l23+VNpLrtylTk334X0f5I32o1oWKvKsHg1xOLLU23F7dBV5AmqsE8zU7NanoNQZ6o/wDs5v1o+FwLrLvw6ns5bjKmsytcSp7OW5mTBWgwKFqd9c29mbwPJ9oJcaC1Rb2/+FhhK9VDv3sqManerLojFePiB4QAEAwGAIRJCIIABodAAgAAAAAPtkT9ZT9pHejS5Yr06ns5bmZjJnx4duO9GqrK8ZL9rCxkQEffI8mdSSitGmT1LWEejCcj/wAkryXEjslLUWuX4fGosySmtDtbufQeqlTUEoxVopZjsLjIVIOLaatJOzRyaLE8PVRXWaolm1SWpmelFptNWadmnpTAguMkxlJWqJ35ytn60U4Au8pxmNmoJuWtqyXT0lTkr9ZB8v8Aki/icSpyWdxklraaRNB8aPbjvA1WU/cn2JbjJGurfdl2WZGKvZcrzIFavI4cGEFqgtxnMRlerU7bWzN4GoirJGSrSvKT1yb2sDgABAMBgCESQiCAAaHQAIAAAAADqDs11o1zMebFBYxyXJy6LGmw3JFSj+955Pw7ivwbJ051JPTB2iul3z/AuwQAAUKzFsg4a4cVx1pXOXmWYAxxb4Rh97VJrNphF/7M9mUYZCc1PRzo8knyHuCY4rU1OLi86aszMV6Dpz4L5GmnrXIzVFXj8FwIy/Mp2v0O+b4IFWU9D6mZjDocKpTX7k9mfwNRydxncFjerHoUn8LeIGhqyspPVFvYZBGqy+VqdT2ctxlQUAAQDAYAhEkIggAGh0ACAAAAAAM19J3UeyjIGsyV3hDsR3BY8GEZp5Qv5PGRaFVhztXrrW2/j9S1CgAAAAAAABXY8vVf2XiWJXY6/VPtID303mXUikwCPHm9UbbX9C5oPix7K3FVgP3qvdvYHsxiVqU+ngr4ozZoMdlal1zivHwM+EoAAgGAwBCJIRBAANDoAEAAAAAANVkD9XT9nHcZU0+GP1VPshYrXWVLKZuWaL0vO9KT5OlHv9K0Of8ALPyPRUyaEneUIt62k2cvJKfMp+7EDyzxmktHCl0pW32OHjdPmz+XzPcslp8yHuxO1SitEY7EFVrxuPJCbfTZHz9L1Hopf7PwLmwCKb0jlD0UvkqEf8rK3ohb+lt7LoBVRFZY+WMevgeFz518hymatKUWr3teyv3IuwB86EHGMU9Kik+tIq8D+/W6/FlwU+DfiVut72ET9oJ5qa1yb2ZvEpSzx+XHitUL7W/IrAAACAYDAEIkhEEAA0OgAQAAAAAA0uEP1NPqe9maNFgsvVR6HJfG/iFj3gAKAAAAAAAAAHLqRWlragOihyPKo0qtZyvZyklZXz3Za18upwV3JN6ovhN7DMTldt8rbe0JX0yqu6k5SfK8y1LkR8gAgAAAYDAEIkhEEAA0OgAQAAAAAA9mQYhKkmrKUW72btZ9DPGALd44/wBNe99Dh43PkjDvuyrAVZPGquqGx+Zw8Xra4rqieAAex4nW5+yMfI4eX1X+eXdZHmAH2eV1OfU95nDrSemUn1yZwAiWzmxIAAAAAAAAABgMAQiSEQQADQ6ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGAIRJCIIABodAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYDAEIkhEEAA0OgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAQgCCAAaH/2Q== " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>6.8K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+
+    </div> 
+    
+    <div class="container">
+
+
+
+
+        <div class="box">
+            <div>
+                <img src="/img 4.1.jpg" width="100%" height="150px">
+            </div> 
+            
+            <div id="afterimg">
+                <div style="display: flex;">
+
+                    <div>
+                    <h3>Food & drink</h3>
+                     <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                     </div>
+        
+                    <div >
+                    <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                     </div>
+
+            </div>
+
+            <p style="font-size: 16px;">It’s time to indulge, and throw yourself into the world of culinary photography — with shots of elaborate..</p>
+
+            <div style="display: flex;">
+                <div>
+                  <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+                 </div>
+                <div class="contributor">
+                  <p>7.5K contributions</p></div>
+               </div>
+            
+        </div>
+        
+      
+        </div>
+       
+        
+
+
+
+
+        
+      <div class="box">
+        <div>
+            <img src="/img 4.2.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Health & Wellness</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Celebrate a healthy mind, body and soul with photographs that showcase everything from new..</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>4.4K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+      <div class="box">
+        <div>
+            <img src="/img 4.3.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Current Events </h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src= "https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Covering the latest important events, news-worthy moments and movements from around the world...</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>3.9K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+
+    </div> 
+
+    <div class="container">
+
+
+
+
+        <div class="box">
+            <div>
+                <img src="/img 5.1.jpg" width="100%" height="150px">
+            </div> 
+            
+            <div id="afterimg">
+                <div style="display: flex;">
+
+                    <div>
+                    <h3>People</h3>
+                     <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                     </div>
+        
+                    <div >
+                    <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                     </div>
+
+            </div>
+
+            <p style="font-size: 16px;">Real people, captured. Photography has the power to reflect the world around us, give voice to..</p>
+
+            <div style="display: flex;">
+                <div>
+                  <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+                 </div>
+                <div class="contributor">
+                  <p>7.4K contributions</p></div>
+               </div>
+            
+        </div>
+        
+      
+        </div>
+       
+        
+
+
+
+
+        
+      <div class="box">
+        <div>
+            <img src="/img 5.2.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                <h3>Interiors</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src="https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">Whether it’s a peaceful bedroom or a cluttered kitchen — photographs of our spaces tell the story..</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>4K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+      <div class="box">
+        <div>
+            <img src="/img 5.3.jpg" width="100%" height="150px">
+        </div> 
+        
+        <div id="afterimg">
+            <div style="display: flex;">
+
+                <div>
+                  
+                <h3>Street Photography</h3>
+                 <p style="margin-top: -12px; color:#76768c;">by Unsplash</p>
+                 </div>
+    
+                <div >
+                <img  class="sideimg" src= "https://images.unsplash.com/profile-1544707963613-16baf868f301?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&crop=faces&bg=fff"  >
+                 </div>
+
+        </div>
+
+        <p style="font-size: 16px;">From early morning commutes to neon-tinted nights, our streets have become the fabric of our shared..</p>
+
+        <div style="display: flex;">
+            <div>
+              <img src="data:image/jpeg;base64,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 " width="20px" height="20px" alt="">
+             </div>
+            <div class="contributor">
+              <p>4.9K contributions</p></div>
+           </div>
+        
+    </div>
+      </div>
+
+    </div> 
+  
+</body>
+</html>
