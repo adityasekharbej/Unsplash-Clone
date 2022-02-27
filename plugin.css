@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.textFontFamily {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionOne {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.sectionBackground {
+  background-color: #f5f5f5;
+}
+.flexDiv {
+  display: flex;
+}
+.officialAppDiv {
+  margin: 16px;
+}
+.marginText {
+  padding-top: 70px;
+}
+.officialApp {
+  font-size: 15px;
+  color: #767676;
+}
+.bringMagic {
+  font-size: 46px;
+}
+.appStoreText {
+  font-size: 18px;
+  line-height: 29px;
+}
+.displayImage {
+  margin: 40px;
+  width: 50%;
+}
+
+/* card */
+
+.moreUnsplash {
+  font-size: 28px;
+  padding-bottom: 64px;
+}
+.cardFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cardWidth {
+  width: 28%;
+  margin-left: 0.2%;
+  margin-bottom: 1.5%;
+}
+.cardBackground {
+  background-color: #fff;
+  padding: 24px;
+}
+.cardImage {
+  padding: 10%;
+  height: 105px;
+}
+.textDecorationNone {
+  text-decoration: none;
+  color: black;
+}
+.cardImagePosition {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
