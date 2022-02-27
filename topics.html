@@ -146,6 +146,84 @@
             }
 
             }
+            *{
+    font-family:apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+}
+/* footer First Box styles starts from here */
+#footer{
+    display:flex;
+    height:480px;
+    width:90%;
+    margin:auto;
+    margin-top: 50px;
+}
+#footer>div{
+    width:20%;
+    margin-right:30px;
+}
+#footer>#firstdiv{
+    width:33%;
+}
+#firstdiv>h4+p{
+    color:black;
+}
+a{
+    color:grey;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+#footer>#lastdiv{
+    margin-right:1px;
+}
+p{
+    color:grey;
+}
+#footer>div>p:hover{
+    color:black;
+}
+/* Horizontal Line */
+hr{
+    width:90%;
+    color:grey;
+}
+/* footer Second box styles starts from here */
+#logoFooter{
+    display:flex;
+    width:90%;
+    height:50px;
+    justify-content:space-between;
+    margin:auto;
+}
+#logoFooter>div{
+    display:flex;
+    width:20%;
+}
+#pmatter{
+    justify-content:space-between;
+}
+#pmatter>p:hover{
+    color:black;
+}
+/* Styles for footer second box images */
+#imageLogo{
+    justify-content:space-between;
+    max-width:8%;
+    display:block;
+    padding-top:12px
+
+}
+#imageLogo>img{
+    filter: invert(57%) sepia(10%) saturate(18%) hue-rotate(317deg) brightness(87%) contrast(84%);
+    width:20px;
+    height:20px;
+}
+#imageLogo>img:hover{
+    filter: invert(0%) sepia(3%) saturate(7485%) hue-rotate(100deg) brightness(115%) contrast(95%);
+}
+
+
     </style>
 </head>
 <body>
@@ -768,7 +846,72 @@
     </div>
       </div>
 
-    </div> 
+    </div>
+    <div id = "footer">
+      <div id = "firstdiv">
+          <h4>Unsplash</h4>
+          <p>Beautiful, <a href="https://unsplash.com/license">free images</a> free images gifted by the world’s most generous community of photographers. Better than any royalty free or stock photos.</p>
+          <p>About</p>
+          <p>Blog</p>
+          <p>Community</p>
+          <p>Join the Team</p>
+          <p>Developers/API</p>
+          <p>Press</p>
+          <p>Help Center</p>
+      </div>
+      <div>
+          <h4>Product</h4>
+          <p>Explore</p>
+          <p>Unsplash Awards</p>
+          <p>Unsplash for Education</p>
+          <p>Unsplash for iOs</p>
+          <p>Official Apps</p>
+      </div>
+      <div>
+          <h4>Popular</h4>
+          <p>Backgrounds</p>
+          <p>Free Images</p>
+          <p>Free Stock Photos</p>
+          <p>Happy Birthday Images</p>
+          <p>Cool Photos</p>
+          <p>Nature Pictures</p>
+          <p>Black Backgrounds</p>
+          <p>White Backgrounds</p>
+          <p>Textures</p>
+          <p>Desktop Backgrounds</p>
+      </div>
+      <div id = "lastdiv">
+          <h4>Wallpapers</h4>
+          <p>HD Wallpapers</p>
+          <p>4K Wallpapers</p>
+          <p>iPhone Wallpapers</p>
+          <p>Cool Wallpapers</p>
+          <p>Cute Wallpapers</p>
+          <p>Live Wallpapers</p>
+          <p>PC Wallpapers</p>
+          <p>Black Wallpapers</p>
+          <p>iPad Wallpapers</p>
+          <p>Desktop Wallpapers</p>
+      </div>
+  </div>
+  <!-- Horizontal Line -->
+  <hr>
+  <!-- Second Box starts from here -->
+  <div id = "logoFooter">
+      <div id = "pmatter">
+         <p> Privacy Policy</p>
+         <p>Terms</p>
+         <p>Security</p>
+      </div>
+      <div id = "imageLogo">
+          <img src="../images/twitter.png" alt="" id = "twitterlink">
+          <img src="../images/facebook.png" alt="" id = "facebooklink">
+          <img src="../images/instagram.png" alt="" id = "instalink">
+      </div>
+  </div>
+</body>
+</html>
+<script src = "../script/footer.js"></script>
   
 </body>
 </html>

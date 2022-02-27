@@ -1,3 +1,6 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 .container {
   height: 2180px;
   width: 55%;
@@ -25,17 +28,28 @@
 #button1 {
   height: 40px;
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: rgb(139, 139, 139);
+  border: none;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#button1:hover{
+  border: 2px solid black;
+  color: black;
 }
 #all {
   height: 52px;
-  width: 97.6%;
+  width: 100%;
   background-color: rgb(40, 180, 40);
   color: white;
   margin-top: 50px;
-  padding: 0.1px 0px 2px 19px;
+  /* padding: 5px 0 0 5px; */
   font-size: 20px;
+}
+#all > p{
+    padding: 12px 0 0 20px;
 }
 #over {
   height: 15px;

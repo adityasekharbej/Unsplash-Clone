@@ -74,6 +74,7 @@ font-size:14px;
     z-index:100;
     background:white;
     margin-bottom:100px;
+    margin-top: -30px;
 }
 #headBox>p{
     margin-right:20px;
